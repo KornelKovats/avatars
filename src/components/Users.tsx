@@ -5,9 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import { styled } from '@mui/material/styles';
 
 interface User {
   first_name: string;
