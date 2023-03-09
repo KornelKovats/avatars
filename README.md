@@ -1,1 +1,1 @@
-https://main--dazzling-mousse-8d2fd9.netlify.app/
+https://avatars-kornelkovats.netlify.app
