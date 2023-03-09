@@ -38,10 +38,11 @@ function Users() {
       <Box sx={{
         display: 'flex',
         flexWrap: 'wrap',
+        justifyContent: 'center',
         maxWidth: 1000,
         position: 'absolute'
       }}>
-      {users.map((user, index) => (
+      {users.map((user) => (
           <Card
             sx={{
               width: 250,
