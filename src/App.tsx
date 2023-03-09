@@ -1,5 +1,5 @@
+import { margin } from "@mui/system";
 import { useEffect } from "react";
-import "./App.css";
 import Users from "./components/Users";
 
 function App() {
@@ -10,7 +10,10 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div className="App" style={{
+      display: 'flex',
+      justifyContent: 'center',
+      }}>
       <Users/>
     </div>
   );
